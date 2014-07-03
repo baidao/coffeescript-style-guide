@@ -322,7 +322,7 @@ Use string interpolation instead of string concatenation:
 "this is an " + adjective + " string" # No
 ```
 
-Prefer single quoted strings (`''`) instead of double quoted (`""`) strings, unless features like string interpolation are being used for the given string.
+Prefer always use double quoted (`""`) strings, because there is no performance issue as ruby.
 
 <a name="conditionals"/>
 ## Conditionals
